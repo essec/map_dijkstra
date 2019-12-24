@@ -1,0 +1,38 @@
+{
+    "A": {
+        "neighbor": {
+            "B": 1
+        },
+        "test": {
+            "name": "hello"
+        }
+    },
+    "B": {
+        "neighbor": {
+            "A": 1,
+            "C": 2,
+            "D": 4
+        },
+        "test": {
+            "name": "hello"
+        }
+    },
+    "C": {
+        "neighbor": {
+            "B": 2,
+            "D": 1
+        },
+        "test": {
+            "name": "hello"
+        }
+    },
+    "D": {
+        "neighbor": {
+            "C": 1,
+            "B": 4
+        },
+        "test": {
+            "name": "hello"
+        }
+    }
+}
